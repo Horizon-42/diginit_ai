@@ -14,9 +14,14 @@ Legal
 Text
 Voice
 
+
+
+
 ## Output
 Same form of input, same language
 
 ## Scope
 Law, Insurance
+
+
 
