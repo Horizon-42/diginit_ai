@@ -17,6 +17,9 @@ Voice
 ## Output
 Same form of input, same language
 
+Short version
+Long Version
+
 ## Scope
 Law, Insurance
 
