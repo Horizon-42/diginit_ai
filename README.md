@@ -14,14 +14,15 @@ Legal
 Text
 Voice
 
-
-
-
 ## Output
 Same form of input, same language
 
 ## Scope
 Law, Insurance
 
+Function: Law Vocabulary.
 
+
+## Leagel Advice
+What kind of information should give to the user?
 
