@@ -3,7 +3,7 @@ import argparse
 import pandas as pd
 import os
 # Set Hugging Face Mirror for China
-os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
+# os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
 
 from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
