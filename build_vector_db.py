@@ -5,6 +5,9 @@ from langchain_core.documents import Document
 import os
 import shutil
 
+# Set Hugging Face Mirror for China
+os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
+
 # Configuration
 CSV_PATH = "rag_resource/combined_laws.csv"
 DB_DIR = "rag_resource/chroma_db"

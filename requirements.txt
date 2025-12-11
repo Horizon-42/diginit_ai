@@ -3,7 +3,9 @@ langchain
 langchain-community
 langchain-huggingface
 langchain-chroma
+langchain-ollama
 chromadb
 sentence-transformers
 python-dotenv
 ipykernel
+gradio
