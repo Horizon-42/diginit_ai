@@ -1,11 +1,12 @@
 import os
 import argparse
 import pandas as pd
-from langchain_chroma import Chroma
-from langchain_huggingface import HuggingFaceEmbeddings
-
+import os
 # Set Hugging Face Mirror for China
 os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
+
+from langchain_chroma import Chroma
+from langchain_huggingface import HuggingFaceEmbeddings
 
 from langchain_ollama import ChatOllama
 from langchain_core.prompts import ChatPromptTemplate

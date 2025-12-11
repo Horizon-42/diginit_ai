@@ -1,12 +1,13 @@
 import pandas as pd
+import os
+# Set Hugging Face Mirror for China BEFORE importing other modules that might use it
+os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
+
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
 from langchain_core.documents import Document
-import os
 import shutil
-
-# Set Hugging Face Mirror for China
-os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
+import time
 
 # Configuration
 CSV_PATH = "rag_resource/combined_laws.csv"
